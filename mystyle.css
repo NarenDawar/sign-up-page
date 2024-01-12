@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.image {
+    display: flex;
+    width: 40%;
+    height: 50%;
+}
+
+.image > img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.text {
+    padding-right: 250px;
+}
