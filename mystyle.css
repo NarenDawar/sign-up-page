@@ -31,16 +31,15 @@ body {
 .color1 {
     background-color: red;
     display: flex;
-    width: 100%;
+    width: 530px;
     padding: 119px;
     flex-direction: column;
-    flex-grow: 1;
 }
 
 .color2 {
     background-color: blue;
     display: flex;
-    width: 100%;
+    width: 530px;
     padding: 119px;
     flex-direction: column;
 }
@@ -48,7 +47,7 @@ body {
 .color3 {
     background-color: green;
     display: flex;
-    width: 100%;
+    width: 530px;
     padding: 119px;
     flex-direction: column;
 }
