@@ -31,29 +31,96 @@ body {
 }
 
 .color1 {
-    background-color: red;
+    background-color: whitesmoke;
     display: flex;
     width: 100%;
-    text-align: justify;
     height: 35vh;
     box-sizing: border-box;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-left: 20px;
-    font-size: 30px;
+    font-size: 23px;
+}
+
+.text-1 {
+    max-width: 600px;
+    word-wrap: break-word;
 }
 
 .color2 {
-    background-color: blue;
+    background-color: lightgray;
     display: flex;
     width: 100%;
+    height: 35vh;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 10px;
     flex-direction: column;
-    height: 30vh;
+    box-shadow: 0px 4px 10px gray;
+    position: relative;
 }
 
 .color3 {
-    background-color: green;
+    background-color: whitesmoke;
     display: flex;
     width: 100%;
-    flex-direction: column;
-    height:35vh;
+    height: 30vh;
+}
+
+.inline-form {
+    display: inline-block;
+}
+
+.col {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+
+input:focus {
+    box-shadow: 3px 3px 4px black;
+}
+
+.button1 {
+    width: 200px;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: seagreen;
+    cursor: pointer;
+}
+
+.container-low {
+    padding-top: 30px;
+    padding-left: 15px;
+    display:block;
+}
+
+.buttons {
+    padding-bottom: 15px;
+}
+
+.texts {
+    display: inline;
+}
+
+.login {
+    color: olivedrab;
+    border: 0px solid black;
+    width: 60px;
+    height: 30px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
 }
