@@ -27,6 +27,7 @@ body {
     font-size: 100px;
     vertical-align: middle;
     background-color: red;
+    opacity: 0.1
 }
 
 .image2 {
