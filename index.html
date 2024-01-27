@@ -32,7 +32,7 @@
                         <input type="email" id="email" name="email"> <br>
                         <br>
                         <label for="pass">Password</label> <br>
-                        <input type="password" id="pass" name="pass">
+                        <input type="password" id="pass" name="pass" onkeyup = "check();">
                     </div>
 
                     <div class = "col">
@@ -42,8 +42,8 @@
                         <label for="phone">Phone Number</label> <br>
                         <input type="tel" id="phone" name="phone"> <br>
                         <br>
-                        <label for="cpass">Confirm Password</label> <br>
-                        <input type="password" id="cpass" name="cpass">
+                        <label for="cpass">Confirm Password <span id="message"></span></label> <br>
+                        <input type="password" id="cpass" name="cpass" onkeyup = "check();">
                     </div>
                 </form>
             </div>
